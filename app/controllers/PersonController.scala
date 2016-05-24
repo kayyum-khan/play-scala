@@ -19,6 +19,7 @@ import javax.inject._
 // third change to commit
 // fourth commit from GitHub
 // fifth commit from GitHub
+// sixth commit from GitHuh
 
 class PersonController @Inject() (repo: PersonRepository, val messagesApi: MessagesApi)
                                  (implicit ec: ExecutionContext) extends Controller with I18nSupport{
